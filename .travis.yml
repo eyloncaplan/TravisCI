@@ -3,7 +3,6 @@ solution: TravisCI.sln
 branches:
   only:
   - master
-  - power
 install:
   - nuget restore TravisCI.sln
 script:
