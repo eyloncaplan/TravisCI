@@ -1,7 +1,6 @@
 language: csharp
 solution: TravisCI.sln
 branches:
-  only:
   - master
   - tests
 install:
