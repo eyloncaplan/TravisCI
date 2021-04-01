@@ -111,7 +111,7 @@ namespace TravisCILab
         [Test]
         public void Power_Valid_Caplan()
         {
-            Assert.AreEqual(101, Program.Power("10", "2"));
+            Assert.AreEqual(100, Program.Power("10", "2"));
             Assert.AreEqual(64, Program.Power("4", "3"));
             Assert.AreEqual(1, Program.Power("1.1", "0"));
         }
